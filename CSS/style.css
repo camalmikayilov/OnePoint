@@ -350,7 +350,7 @@ footer{
         display: none;
     }
     .menu button{
-        display: inline;
+        display: block;
     }
  }
 
