@@ -1,0 +1,356 @@
+    /* Start NavBar */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0 115px;
+    
+}
+.navbar_list{
+    font-family: Cab, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    background: rgb(15,25,35);
+    padding: 20px 0;
+    width: 100%;
+}
+.navbar_icon_list li a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  rgb(50,60,70) ;
+}
+.navbar_icon_list li a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+.content li a{
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Cab, sans-serif;
+}
+.content li a:hover{
+    color: rgb(246,181,24);
+}
+.content{
+    display: flex;
+}
+.navbar_icon_list{
+    display: flex;
+}
+.navbar_icon_list li :hover{
+    background-color: rgb(246,181,24);
+    cursor: pointer;
+}
+.navbar_icon_list li a:hover{
+    color: black;
+}
+.navbar_icon_list li a{
+    font-size: 16px;
+}
+header figure{
+    width: 20%;
+    height: 35px;
+}
+header figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.navbar_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    /* End NavBar */
+
+    /* Start Introduction */
+    .introduction{
+    background-image: url(https://www.onepoint.az/wp-content/themes/onepoint/img/bg-picture.jpg);
+    background-size: cover;
+    height: 88vh;
+    z-index: 0;
+    opacity: .9;  
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.introduction_form form button{
+    text-transform: uppercase;
+    border-radius: 50%;
+    border-color: rgb(246,181,24);
+    background-color: rgb(246,181,24);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    font-family: Cab;
+    height: 30px;
+    width: 120px;
+}
+.introduction_list{
+    font-family: Cab, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.introduction_form form input{
+    display: flex;
+    margin: 20px;
+}
+.introduction_content{
+    margin-top: 160px;
+    margin-bottom: 255px;
+}
+.introduction_form{
+    background-color: #fff;
+}
+.voen{
+    display: flex;
+}
+.name{
+    display: flex;
+}
+.person{
+    display: flex;
+}
+.number{
+    display: flex;
+}
+.email{
+    display: flex;
+}
+.introduction_form button{
+    margin: 30px;
+}
+.introduction_content p{
+    color: rgb(176, 176, 176);
+    font-size: 30px;
+}
+.introduction_content h1{
+    text-align: center;
+    font-size: 30px;
+}
+.introduction_form h4{
+    text-align: center;
+}
+.introduction_form{
+    border: 1px solid #fff;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    margin-right: 120px;
+}
+    /* End Introduction */
+
+    /* Start Advantages */
+.advantages{
+    height: 573px;
+}
+.advantages h4{
+    font-family: Cab, sans-serif;
+    font-size: 16px;
+    color: rgb(15, 25, 35);
+}
+.advantages p{
+    font-family: Cab, sans-serif;
+    font-size: 16px;
+    color: rgb(15, 25, 35);
+}
+.advantages_content_items i{
+    color: yellow;
+    font-size: 75px;
+}
+.advantages_content_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advantages_content_items li{
+    width: 100%;
+}
+.advantages_content_items li h4{
+    margin: 15px;
+    text-align: center;
+}
+.container_content{
+    margin: 60px;
+}
+.container_content h4{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    /* End Advantages */
+
+    /* Start Money */
+.image figure img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+.money{
+    background-color: rgb(50,60,70);
+    padding-top: 110px;
+    padding-bottom:110px;
+    height: 460px;
+}
+.money_content{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.image i{
+    color: yellow;
+    width: 300px;
+}
+.money_content p{
+    padding-top: 20px;
+}
+.money_list{
+    font-family: Cab, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+    /* End Money */
+
+    /* Start Partners */
+.partners_image_first{
+    width: 33%;
+    height: 10px;
+}
+.innovation{
+    display: inline-block;
+}
+.innoland{
+    display: inline-block;
+}
+.egov{
+    display: inline-block;
+}
+.bank{
+    display: inline-block;
+}
+.embafinans{
+    display: inline-block;
+}
+.innovation img{
+    width: 100%;
+    height: 100%;
+}
+.innoland img{
+    width: 100%;
+    height: 100%;
+}
+.egov img{
+    width: 100%;
+    height: 100%;
+}
+.partners_image_second{
+    width: 33%;
+    height: 10px;
+}
+.bank img{
+    width: 100%;
+    height: 100%;
+}
+.embafinans img{
+    width: 100%;
+    height: 100%;
+}
+.partners{
+    width: 100%;
+    height: 400px;
+}
+.partners_list{
+    display: flex;
+}
+.partners .partners_content h4,p{
+    text-align: center;
+}
+    /* End Partners */
+
+    /* Start Footer */
+footer{
+    background: rgb(15,25,35);
+    padding: 20px 0;
+    width: 100%;
+    height: 250px;
+}
+.footer_content li a{
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.footer_icon_list li a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  rgb(50,60,70) ;
+}
+.footer_icon_list li a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+.footer_icon_list{
+    display: flex;
+}
+.text{
+    color: white;
+    font-size: 20px;
+}
+.footer_transform{
+    position: relative;
+}
+.footer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+.footer_content .content_list{
+    margin: 15px;
+}
+.footer_icon_list li :hover{
+    background-color: rgb(246,181,24);
+    cursor: pointer;
+}
+.footer_icon_list li a:hover{
+    color: black;
+}
+.content_list li a:hover{
+    color: rgb(246,181,24);
+}
+.text p:hover{
+    color: rgb(246,181,24);
+    cursor: pointer;
+}
+    /* End Footer */
+.menu button{
+    display: none;
+}
+@media (max-width: 460px){   
+    .navbar_content{
+        display: none;
+    }
+    .navbar_icon{
+        display: none;
+    }
+    .menu button{
+        display: inline;
+    }
+ }
+
